@@ -7,7 +7,7 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline to 
 ## 📖 Project Overview
 This project involves:
 1. **Data Architecture**: Implements a Medallion-style approach with Bronze (raw), Silver (cleaned), and Gold (aggregated) data layers.
-2. **ETL Pinelines**: Using Python scripts to extract data from raw CSV files, transform and clean the data using Python, and load it into PostgreSQL.
+2. **ETL Pipelines**: Using Python scripts to extract data from raw CSV files, transform and clean the data using Python, and load it into PostgreSQL.
 3. **Data Modeling**: Implements a relational schema with fact and dimension tables optimized for analytics, ensuring data integrity with foreign keys and normalization.
 4. **Analytics & Reporting**: Enables SQL-based insights on sales, customers, and operations with queries and future dashboard plans.
 
@@ -72,6 +72,10 @@ retail-etl-pipeline/
   - Create tables using pgAdmin or schema.sql
   - Add .env file and set the environment variables
 4. Run pipeline
+```text
+python scripts/main.py
+```
+
 
 ---
 ##  Author
